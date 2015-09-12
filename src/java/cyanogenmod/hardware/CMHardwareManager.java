@@ -213,6 +213,8 @@ public final class CMHardwareManager {
                 return sService.get(feature);
             }
         } catch (RemoteException e) {
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
         }
         return false;
     }
