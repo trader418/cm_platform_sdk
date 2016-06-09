@@ -2824,12 +2824,6 @@ public final class CMSettings {
          */
         public static final String CM_SETUP_WIZARD_COMPLETED = "cm_setup_wizard_completed";
 
-        /**
-         * Whether to display weather information on the lock screen
-         * @hide
-         */
-        public static final String LOCK_SCREEN_WEATHER_ENABLED = "lock_screen_weather_enabled";
-
         // endregion
 
         /**
